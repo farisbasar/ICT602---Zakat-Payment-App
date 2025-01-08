@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary App Colors -->
+    <color name="colorPrimary">#00796B</color> <!-- Teal -->
+    <color name="colorPrimaryDark">#004D40</color> <!-- Darker Teal -->
+    <color name="colorAccent">#FFEB3B</color> <!-- Yellow -->
+
+    <!-- Neutral Colors -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBackground">#F5F5F5</color> <!-- Light Background -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#212121</color> <!-- Dark Text -->
+    <color name="colorTextSecondary">#757575</color> <!-- Lighter Text -->
+
+    <!-- Result Box Colors -->
+    <color name="colorBoxBackground">#FFFFFF</color>
+    <color name="colorBoxBorder">#000000</color>
+</resources>

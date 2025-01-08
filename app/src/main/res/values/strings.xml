@@ -1,0 +1,23 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Zakat Payment App</string>
+
+    <!-- Home Page -->
+    <string name="btn_zakat">Zakat Calculator</string>
+    <string name="btn_about">About Developer</string>
+
+    <!-- Zakat Calculator Page -->
+    <string name="header_zakat">Zakat Calculator</string>
+    <string name="hint_gold_weight">Gold Weight (grams)</string>
+    <string name="hint_gold_value">Gold Value per Gram (RM)</string>
+    <string name="result_placeholder">Results will appear here.</string>
+    <string name="btn_calculate">Calculate Zakat</string>
+    <string name="btn_home">Home</string>
+    <string name="toast_calculation_done">Calculation completed!</string>
+
+    <!-- About Developer Page -->
+    <string name="header_about">About Developer</string>
+    <string name="developer_info">
+        Developed by: Your Name\nCopyright © 2024\nVisit: https://example.com
+    </string>
+</resources>
