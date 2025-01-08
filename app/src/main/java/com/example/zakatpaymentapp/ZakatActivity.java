@@ -75,7 +75,7 @@ public class ZakatActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.menuShare) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this awesome Zakat App: [Your App URL]");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this awesome Zakat App: https://github.com/farisbasar/ICT602---Zakat-Payment-App");
             startActivity(Intent.createChooser(shareIntent, "Share via"));
             return true;
         }
