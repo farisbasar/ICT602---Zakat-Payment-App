@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Developed by Faris Haikal Bin Basarudin\nStudent Id: 2022496184\nProgram: CDCS240 \nCopyright ©farisbasar2024\nVisit: [Your URL]"
+            android:text="Developed by Faris Haikal Bin Basarudin\nStudent Id: 2022496184\nProgram: CDCS240 \nCopyright ©farisbasar2024\nVisit: https://github.com/farisbasar/ICT602---Zakat-Payment-App"
             android:textColor="@color/colorWhite"
             android:textSize="16sp"
             android:gravity="center"
