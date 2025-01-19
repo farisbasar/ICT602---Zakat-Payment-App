@@ -3,7 +3,7 @@
     <!-- Primary App Colors -->
     <color name="colorPrimary">#00796B</color> <!-- Teal -->
     <color name="colorPrimaryDark">#004D40</color> <!-- Darker Teal -->
-    <color name="colorAccent">#FFEB3B</color> <!-- Yellow -->
+    <color name="colorAccent">#004D40</color> <!-- Yellow -->
 
     <!-- Neutral Colors -->
     <color name="colorWhite">#FFFFFF</color>

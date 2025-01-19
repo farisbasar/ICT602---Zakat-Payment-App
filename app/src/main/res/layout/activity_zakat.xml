@@ -6,7 +6,7 @@
     android:background="@color/colorBackground"
     android:padding="16dp">
 
-    <!-- Header -->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,12 +14,12 @@
         style="@style/HeaderText"
         android:layout_marginBottom="16dp" />
 
-    <!-- Input Fields -->
+
     <EditText
         android:id="@+id/etGoldWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Gold Weight (grams)"
+        android:hint="Fill in the Gold Weight (grams)"
         android:inputType="numberDecimal"
         android:layout_marginBottom="8dp" />
 
@@ -27,11 +27,11 @@
         android:id="@+id/etGoldValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Gold Value per Gram (RM)"
+        android:hint="Fill in Current Gold Value per Gram (RM)"
         android:inputType="numberDecimal"
         android:layout_marginBottom="8dp" />
 
-    <!-- Radio Buttons -->
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:textColor="@color/colorTextPrimary" />
     </RadioGroup>
 
-    <!-- Calculate Button -->
+
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
         style="@style/PrimaryButton"
         android:layout_marginBottom="16dp" />
 
-    <!-- Result Box -->
+
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
@@ -72,11 +72,14 @@
         android:textColor="@color/colorTextPrimary"
         android:textSize="16sp" />
 
-    <!-- Footer: Home Button -->
+
     <Button
         android:id="@+id/btnHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
         style="@style/PrimaryButton" />
+
+
+
 </LinearLayout>

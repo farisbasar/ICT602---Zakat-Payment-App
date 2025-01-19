@@ -6,5 +6,12 @@
         android:title="Share"
         android:icon="@android:drawable/ic_menu_share"
         app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuHelp"
+        android:title="Help"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="ifRoom" />
+
 </menu>
 
