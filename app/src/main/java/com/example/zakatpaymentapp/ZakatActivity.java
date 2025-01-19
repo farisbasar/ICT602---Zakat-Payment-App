@@ -48,7 +48,7 @@ public class ZakatActivity extends AppCompatActivity {
     }
 
     private boolean validateInput() {
-        // Validate if EditText fields are filled
+
         if (etGoldWeight.getText().toString().isEmpty()) {
             Snackbar.make(etGoldWeight, "Please enter the gold weight!", Snackbar.LENGTH_LONG).show();
             return false;
@@ -58,7 +58,7 @@ public class ZakatActivity extends AppCompatActivity {
             return false;
         }
 
-        // Ensure a radio button is selected
+
         if (!rbKeep.isChecked() && !rbWear.isChecked()) {
             Snackbar.make(rbKeep, "Please select Keep or Wear!", Snackbar.LENGTH_LONG).show();
             return false;
@@ -68,7 +68,6 @@ public class ZakatActivity extends AppCompatActivity {
     }
 
     private void showConfirmationDialog() {
-        // Confirmation dialog before performing calculation
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Confirm Calculation")
                 .setMessage("Are you sure you want to calculate Zakat?")
@@ -95,7 +94,6 @@ public class ZakatActivity extends AppCompatActivity {
         double zakatPayable = payableWeight * value;
         double totalZakat = zakatPayable * 0.025;
 
-        // Display result in box
         tvResult.setText(String.format(
                 "Total Gold Value: RM %.2f\nZakat Payable: RM %.2f\nTotal Zakat: RM %.2f",
                 totalValue, zakatPayable, totalZakat));
@@ -130,7 +128,7 @@ public class ZakatActivity extends AppCompatActivity {
             startActivity(Intent.createChooser(shareIntent, "Share via"));
             return true;
         } else if (item.getItemId() == R.id.menuHelp) {
-            showHelpDialog(); // Show help dialog when Help menu is clicked
+            showHelpDialog();
             return true;
 
         }
